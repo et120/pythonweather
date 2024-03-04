@@ -9,13 +9,13 @@ This is the final project of a 9+ hour "follow-along" to a freeCodeCamp YouTube 
 
 **Set Up:**
 
-Terminal Commands:
+**Terminal Commands**
 1. `py -m venv .venv` *set up virtual environment*
 2. `source .venv/Scripts/activate` *activate on Windows*
 3. `pip install requests python-dotenv Flask` *install packages*
 4. `pip freeze > requirements.txt` *list the packages so when it is deployed the host can see what needs to be installed, .venv is not pushed to GitHub*
 
-gitignore:
-    .venv folder *virtual environment*
-    .env file *api key*
-    __pycache__ folder *created when you use modules*
+**gitignore File**
+- .venv folder *virtual environment*
+- .env file *api key*
+- __pycache__ folder *created when you use modules*
